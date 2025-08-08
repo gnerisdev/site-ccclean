@@ -1,0 +1,39 @@
+.footer {
+  background-color: #ffffff;
+  margin-top: auto;
+}
+
+.footer-line {
+  height: 2px;
+  background-color: #1a1a1a;
+  margin: 0 40px;
+}
+
+.footer-content {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info {
+  color: #1a1a1a;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .footer-line {
+    margin: 0 20px;
+  }
+  
+  .footer-content {
+    padding: 15px 20px;
+  }
+  
+  .contact-info {
+    font-size: 12px;
+  }
+}

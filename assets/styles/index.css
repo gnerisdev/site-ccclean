@@ -45,7 +45,8 @@
 
 .background_image {
     height: 100%;
-    width: 100%;
+    width: 98%;
+    margin: auto;
     object-fit: contain;
 }
 

@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <header class="site-header" role="banner">
             <a class="brand" aria-hidden="false" href="/">
                 <div class="logo">CLEAN</div>
+                <img class="logo_mobi" src="./assets/images/logo-02.png" alt="DIARISTAS E MENSALISTAS">
             </a>
             <div class="menu-container">
                 <nav class="main-nav" aria-label="Menu principal">

@@ -113,15 +113,14 @@
     gap: 8px;
     background: var(--blue);
     color: #fff;
-    padding: 14px 22px;
+    padding: 14px 30px;
     border-radius: 10px;
     font-weight: 700;
     font-size: 18px;
     box-shadow: 0 6px 0 rgba(0, 0, 0, 0.06);
     border: none;
     cursor: pointer;
-    width: 100%;
-    max-width: 260px;
+    width: fit-content;
 }
 
 .whatsapp-btn svg {

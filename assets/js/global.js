@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const headerHTML = `
         <header class="site-header" role="banner">
-            <div class="brand" aria-hidden="false">
+            <a class="brand" aria-hidden="false" href="/">
                 <div class="logo">CLEAN</div>
-            </div>
+            </a>
             <div class="menu-container">
                 <nav class="main-nav" aria-label="Menu principal">
                     <a href="quem-somos.html">Quem somos</a>

@@ -56,7 +56,15 @@
 
 .big-logo img {
     width: 130px;
+    height: auto;
+    margin: auto;
 }
+@media(max-width:776px) {
+    .big-logo img {
+        width: 23%;
+    }
+}
+
 
 .title {
     font-size: 32px;

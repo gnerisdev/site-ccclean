@@ -79,6 +79,10 @@ nav.main-nav a {
 }
 
 @media(max-width:540px) {
+    nav.main-nav {
+        gap: 8px;
+    }
+
     .brand .logo {
         font-size: 20px
     }

@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quem Somos — Clean</title>
+  <meta name="description" content="Saiba mais sobre a CC Clean, empresa especializada em diaristas e mensalistas para limpeza comercial em São Paulo.">
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f5f8fa;
+      color: #333;
+      overflow: auto;
+    }
+
+    footer {
+        display: none;
+    }
+
+    /* Hero simples */
+    .hero-about {
+      background: #1d3557;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem 3rem;
+    }
+
+    .hero-about h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 700;
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-about h1::after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 3px;
+      margin: 0.5rem auto 0;
+      background: #a8dadc;
+      border-radius: 2px;
+    }
+
+    /* Seção sobre */
+    .about {
+      display: flex;
+      justify-content: center;
+      padding: 3rem 1rem;
+    }
+
+    .about-content {
+      max-width: 850px;
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 2.5rem 3rem;
+      animation: fadeIn 0.7s ease;
+    }
+
+    .about-content p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 1.4rem;
+    }
+
+    /* Animação */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-about h1 {
+        font-size: 2rem;
+      }
+
+      .about-content {
+        padding: 1.8rem;
+      }
+
+      .about-content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page" role="document">
+
+    <!-- Hero -->
+    <section class="hero-about" role="banner">
+      <h1>Quem Somos</h1>
+    </section>
+
+    <!-- Conteúdo -->
+    <section class="about" role="main" aria-label="Sobre a empresa">
+      <div class="about-content">
+        <p>
+          A CC Clean é uma empresa especializada no fornecimento de diaristas e mensalistas para limpeza comercial, atuando com excelência e responsabilidade no setor corporativo.
+        </p>
+        <p>
+          Atendemos clínicas, escritórios, lojas, condomínios, salões, escolas, coworkings, entre outros ambientes profissionais que exigem limpeza com alto padrão e discrição.
+        </p>
+        <p>
+          Nosso modelo de trabalho garante praticidade ao contratante: livre de vínculo empregatício, com profissionais uniformizadas, treinadas, seguradas e registradas em regime CLT. Cuidamos de toda a gestão para que sua empresa tenha um ambiente limpo, organizado e sempre pronto para receber bem.
+        </p>
+        <p>
+          Com atuação na cidade de São Paulo, a CC Clean oferece um atendimento personalizado, seguro e eficiente, com flexibilidade de dias, horários e frequências, de acordo com a necessidade de cada cliente.
+        </p>
+        <p>
+          Mais do que limpeza, entregamos confiança, profissionalismo e tranquilidade para o seu dia a dia.
+        </p>
+      </div>
+    </section>
+  </div>
+
+  <script src="./assets/js/global.js"></script>
+</body>
+
+</html>

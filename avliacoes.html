@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Avaliações — Clean</title>
+  <meta name="description" content="Confira as avaliações reais de clientes satisfeitos com os serviços de diaristas e mensalistas da CC Clean.">
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/styles/index.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: #f5f8fa;
+      color: #333;
+      overflow: auto;
+    }
+
+    footer {
+      display: none;
+    }
+
+    /* Hero */
+    .hero-about {
+      background: #1d3557;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 1rem 3rem;
+    }
+
+    .hero-about h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      font-weight: 700;
+      position: relative;
+      display: inline-block;
+    }
+
+    .hero-about h1::after {
+      content: "";
+      display: block;
+      width: 60%;
+      height: 3px;
+      margin: 0.5rem auto 0;
+      background: #a8dadc;
+      border-radius: 2px;
+    }
+
+    /* Conteúdo */
+    .about {
+      display: flex;
+      justify-content: center;
+      padding: 3rem 1rem;
+    }
+
+    .about-content {
+      max-width: 950px;
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      padding: 2.5rem 3rem;
+      animation: fadeIn 0.7s ease;
+    }
+
+    .section-block {
+      margin-bottom: 2.5rem;
+    }
+
+    .section-block:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-block h2 {
+      font-size: 1.6rem;
+      color: #1d3557;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .section-block svg {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+    }
+
+    /* Cards */
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .review-card {
+      background: #f9fafc;
+      border-radius: 0.8rem;
+      padding: 1.5rem;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s ease;
+    }
+
+    .review-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .review-author {
+      font-weight: 600;
+      margin-top: 0.5rem;
+      color: #1d3557;
+    }
+
+    .stars {
+      color: #f4c430;
+      margin-bottom: 0.8rem;
+      display: flex;
+      gap: 0.2rem;
+      font-size: 2rem;
+    }
+
+    .review-text {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    /* Animação */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero-about h1 {
+        font-size: 2rem;
+      }
+
+      .about-content {
+        padding: 1.8rem;
+      }
+
+      .section-block h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page" role="document">
+
+    <!-- Hero -->
+    <section class="hero-about" role="banner">
+      <h1>Avaliações</h1>
+    </section>
+
+    <!-- Conteúdo -->
+    <section class="about" role="main" aria-label="Avaliações de clientes">
+      <div class="about-content">
+
+        <!-- Bloco Avaliações -->
+        <div class="section-block">
+          <h2>
+            <svg fill="none" stroke="#1d3557" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26 6.91.99-5 4.87L18.18 22 12 18.56 5.82 22l1.18-7.88-5-4.87 6.91-.99L12 2z"></path>
+            </svg>
+            O que nossos clientes dizem
+          </h2>
+
+          <div class="reviews">
+
+            <!-- Review 1 -->
+            <div class="review-card">
+              <div class="stars">
+                ★★★★★
+              </div>
+              <p class="review-text">“A CC Clean transformou nossa clínica. As diaristas são pontuais, uniformizadas e extremamente profissionais.”</p>
+              <p class="review-author">— Fernanda S., Clínica Odontológica</p>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+              <div class="stars">
+                ★★★★☆
+              </div>
+              <p class="review-text">“Contratamos mensalistas e nunca mais nos preocupamos com a limpeza do escritório. Excelente serviço.”</p>
+              <p class="review-author">— Ricardo M., Escritório de Advocacia</p>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <div class="stars">
+                ★★★★★
+              </div>
+              <p class="review-text">“Equipe muito bem treinada, confiável e sempre disposta a atender com simpatia. Recomendo sem dúvidas.”</p>
+              <p class="review-author">— Juliana T., Loja de Roupas</p>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card">
+              <div class="stars">
+                ★★★★★
+              </div>
+              <p class="review-text">“Ótimo custo-benefício. A limpeza é feita com capricho e temos total segurança.”</p>
+              <p class="review-author">— Paulo A., Empresa de TI</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </div>
+
+  <script src="./assets/js/global.js"></script>
+</body>
+
+</html>

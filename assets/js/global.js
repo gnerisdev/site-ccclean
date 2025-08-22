@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     <a href="quem-somos.html">Quem somos</a>
                     <a href="missao-valores.html">Missão e valores</a>
                     <a href="diaristas.html">Diaristas</a>
-                    <a href="#">Mensalistas</a>
-                    <a href="#">Avaliações</a>
+                    <a href="mensalistas.html">Mensalistas</a>
+                    <a href="avliacoes.html">Avaliações</a>
                 </nav>
                 <div class="scroll-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

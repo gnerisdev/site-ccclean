@@ -11,7 +11,6 @@ body {
     font-family: "Helvetica Neue", Arial, sans-serif;
     color: #0f2540;
     background: #fdfaf5;
-    overflow: hidden;
 }
 
 a {
@@ -19,6 +18,10 @@ a {
     text-decoration: none
 }
 
+
+ol {
+    padding-left: 1.5rem;
+}
 /* Cores base da imagem */
 :root {
     --navy: #0f2540;
@@ -45,6 +48,7 @@ header.site-header {
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     position: relative;
+    margin-top: 8px;
 }
 
 .brand {
@@ -110,13 +114,16 @@ nav.main-nav a {
 
 .scroll-arrow {
     background-color: #fdfaf5;
-    padding: 0 8px;
+    padding: 0 5px;
     cursor: pointer;
     display: none;
     align-items: center;
     height: 100%;
     border-left: 1px solid #ccc;
     box-shadow: -5px 0 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 0;
+    height: 32px;
 }
 
 @media (max-width: 676px) {

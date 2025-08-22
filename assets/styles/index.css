@@ -65,7 +65,6 @@
     }
 }
 
-
 .title {
     font-size: 32px;
     font-weight: 800;
@@ -150,9 +149,5 @@ footer.site-footer {
     .whatsapp-btn {
         font-size: 16px;
         padding: 10px 14px
-    }
-
-    .team-strip img {
-        max-height: 180px
     }
 }
